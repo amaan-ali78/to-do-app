@@ -37,3 +37,15 @@
 .containers{
 display: flex;
 }
+@media (max-width : 600px) {
+    .formBody{
+        width: 90vw;
+        margin-top: 10px;
+    }
+    .inp{
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+}

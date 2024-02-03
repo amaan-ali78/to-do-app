@@ -7,3 +7,9 @@
     font-size: 55px;
     font-weight: 900;
 }
+@media (max-width : 600px) {
+.header{
+    height: 60px;
+    padding-bottom: 40px;
+}
+}

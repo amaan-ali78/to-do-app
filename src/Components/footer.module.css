@@ -13,3 +13,12 @@ margin: 50px;
 font-size: 40px;
 font-weight: 900;
 }
+@media (max-width : 600px) {
+    .container{
+        font-size: 10px;
+    }
+    .item{
+        font-size: 20px;
+        margin: 20px;
+    }
+}

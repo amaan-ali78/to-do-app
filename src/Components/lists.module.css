@@ -6,3 +6,8 @@
     padding: 10px;
     background-color: #edf6f9;
 }
+@media (max-width : 600px) {
+    .list{
+        width: 90vw;
+    }
+}
