@@ -1,0 +1,39 @@
+.formBody{
+    width: 60vw;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: #edf6f9;
+}
+.inp{
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 40px;
+}
+.inp:focus{
+    outline: none;
+}
+.btn{
+    font-size: 40px;
+    border: none;
+    background-color: #1b263b;
+    border-radius: 30px;
+    color: #edf6f9;
+    padding: 10px 20px;
+    margin: 10px;
+    transition: all ease-in-out 0.1s;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #1b263b7c;
+}
+.btn:active{
+    transform: scale(0.9);
+}
+.containers{
+display: flex;
+}
